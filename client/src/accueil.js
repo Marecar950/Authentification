@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Routes, Route, Link} from "react-router-dom";
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import Inscription from "./inscription.js";
+import Connexion from "./connexion.js";
 import "./App.css";
 
 function Apps() {
@@ -26,6 +27,7 @@ function Apps() {
    <div className="container mt-3">  
     <Routes>
      <Route path="/inscription" element={<Inscription />} />
+     <Route path="/connexion" element={<Connexion />} />
    </Routes>
   </div>
  </div>
