@@ -1,1 +1,1 @@
-Projet personnel : Authentification
+Projet personnel : Inscription et Connexion
